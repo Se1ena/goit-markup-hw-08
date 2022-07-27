@@ -1,0 +1,94 @@
+/* Form subscribe */
+
+.subscribe{
+  &__title {
+    margin-bottom: 20px;
+  
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  
+    color: var(--text-clr-form-footer-p);
+  }
+
+  &__text {
+    width: 358px;
+    height: 50px;
+    padding: 15px 0px 15px 16px;
+    margin: 0;
+    margin-right: 12px;
+  
+    border: var(--subscribe-text-border);
+    filter: var(--subscribe-text-filter);
+    border-radius: 4px;
+  
+    background-color: var(--bgr-color-input);
+  
+    color: var(--subscribe-text-color);
+  }
+}
+  
+.subs-btn {
+  transition-property: background-color;
+  transition-duration: var(--duration);
+  transition-timing-function: var(--timing-function);
+  position: relative;
+  
+  width: 200px;
+  height: 50px;
+  
+  padding: 0;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 29px;
+  padding-right: 62px;
+  
+  flex-wrap: wrap;
+  align-content: center;
+  
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  
+  text-align: center;
+  letter-spacing: 0.06em;
+  
+  color: var(--primary-text-button);
+  
+  background-color: var(--bgr-color-form-button);
+  box-shadow: var(--subs-btn-b-shadow);
+  border-radius: 4px;
+  border-color: var(--subs-btn-border-color);
+  
+  cursor: pointer;
+  outline: none;
+
+  &:hover,
+  &:focus{
+    background: var(--subs-btn-hover);
+  }
+
+  &__icon{
+    position: absolute;
+    top: 13px;
+    bottom: 13px;
+    right: 28px;
+    left: 148px;
+    
+    
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    
+    fill: var(--subs-btn-fill-icon);
+  }
+}
+    
+  /*.close-btn:hover,
+  .close-btn:focus + svg {
+    fill: var(--acent-color-icons);
+  }*/
+  

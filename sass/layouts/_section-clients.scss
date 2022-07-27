@@ -1,0 +1,57 @@
+/* Clients */
+
+.section-clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+  
+.clients{
+  &__title {
+    margin-bottom: 50px;
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+  }
+
+  &__list {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    justify-content: center;
+      
+    padding: 0;
+    margin: 0;
+  }
+
+  &__item{
+    list-style: none;
+  }
+
+  &__icon{
+    transition-property: fill, border-color;
+    transition-duration: var(--duration);
+    transition-timing-function: var(--timing-function);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 170px;
+    height: 92px;
+    
+    border: var(--border-clients-icon);
+    border-radius: 4px;
+    fill: var(--color-icons-company);
+  
+    &:hover, 
+    &:focus{
+      fill: var(--clients-icon-fill-hover);
+      border-color: var(--clients-icon-border-hover);
+    }
+  }
+}
+
+  

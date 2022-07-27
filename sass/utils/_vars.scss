@@ -1,0 +1,139 @@
+
+:root {
+    /* Fonts */
+    --main-font: "Roboto", sans-serif;
+    --logo-font: "Raleway", sans-serif;
+    /* Text colors */
+    --primary-text-color: #212121;
+    --title-text-color: #757575;
+    --logo-text-color: #2196f3;
+    --logo-text-color-footer: #ffffff;
+    --hero-text-color: #ffffff;
+    --accent-text-color: #2196f3;
+    --contacts-link-color: #ffffff;
+    --contacts-text-color: rgba(255, 255, 255, 0.6);
+    --contacts-text-color-head: #757575;
+    --contacts-text-color-adress: #ffffff;
+    --primary-bgc-color-button: #2196f3;
+    --secondary-bgc-color-button: #f5f4fa;
+    /* Text color position-elements (works, cards-projects) */
+    --primary-text-color-pos-el: #FFFFFF;
+  
+    /* Header */
+    --border-bottom-header: 1px solid #ececec;
+  
+    /* Background colors */
+    --header: #ffffff;
+    --hero: #2f303a;
+    --bgr-color-modal-window: #FFFFFF;
+    --bgr-color-backdrop: rgba(0, 0, 0, 0.2);
+    --main: #e5e5e5;
+    --footer: #2f303a;
+  
+   /* Modal window */
+    --madal-w-box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 1px rgb(0 0 0 / 20%);
+    --modal-w-btn-border: 1px solid rgba(0, 0, 0, 0.1);
+  
+    /* Text color button */
+    --primary-text-button: #ffffff;
+    --secondary-text-button: #212121;
+  
+    /* Background colors button */
+    --primary-bgc-color-button: #2196f3;
+    --secondary-bgc-color-button: #f5f4fa;
+  
+   /* Icons features-list */
+   --bgr-c-feature-icons: #f5f4fa;
+  
+   /* Overlay-text (features) */
+    --overlay-text-bgr-c: rgba(47, 48, 58, 0.8);
+  
+    /* Section-team */
+    --background-section-team: #F5F4FA;
+    --bgr-c-section-team-fotos: #FFFFFF;
+    --section-team-fotos-b-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+    --border-section-team: 0px 0px 4px 4px;
+    --social-links-icon: #ffffff;
+    --social-links-icon-bgr-c: rgba(255, 255, 255, 0.1);
+  
+    /*Color icons*/
+    --primary-color-icon: #afb1b8;
+    --acent-color-icons: #2196f3;
+  
+    /*Colors for icons company-clients*/
+    --primary-color-border: #afb1b8;
+    --color-icons-company: #afb1b8;
+    --border-clients-icon: 1px solid #afb1b8;
+    --clients-icon-fill-hover: #2196f3;
+    --clients-icon-border-hover: #2196f3;
+  
+    /*Background color-linial-contacts*/
+    --primary-bgr-color-linial: #2196F3;
+  
+    /* Animation */
+    --duration: 250ms;
+    --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
+    /* Button Замовити послугу*/
+    --btn-label-border: 1px solid transparent;
+    --btn-label-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  
+    /* Text color form (label) */
+    --text-color-label: #757575;
+    --text-color-checkbox: #757575;
+    --text-color-textarea: rgba(117, 117, 117, 0.5);
+  
+    --color-hover-input-icon: #2196F3;
+  
+    /* Text color form-footer */
+    --text-clr-form-footer-p: #FFFFFF;
+  
+    /* Background color form (input) */
+    --bgr-color-input: background: #2F303A;
+    --border-input: 1px solid rgba(33, 33, 33, 0.2);
+    --border-input-hover: 1px solid #2196F3;
+  
+    /* Background color form (button) */
+    --bgr-color-form-button: #2196F3;
+    --btn-submit-border: 1px solid transparent;
+    --btn-submit-box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+    --btn-submit-hover: #188CE8;
+   
+    /* Form (textarea) */
+   --border-color-textarea: 1px solid rgba(33, 33, 33, 0.2);
+   --border-color-acent: 1px solid #2196F3;
+  
+    /* Form (checkbox) */
+   --bgr-color-checkbox:  #2196F3;
+   --checkbox-icon-border: 2px solid black;
+   --checkbox-border-color-checked: #2196F3;
+   --checkbox-bgr-color-checked: #2196F3;
+  
+   /* Form (text-label) */
+   --text-color-label: #757575;
+   
+  
+   /* Social-group-icon (footer) */
+   --bgr-c-icon-footer: rgba(255, 255, 255, 0.1);
+  
+   /* Form subscribe */
+   --subscribe-text-border: 1px solid rgba(255, 255, 255, 0.3);
+   --subscribe-text-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+   --subscribe-text-color: #FFFFFF;
+   --subs-btn-b-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+   --subs-btn-border-color: #2196F3;
+   --subs-btn-hover: #188CE8;
+   --subs-btn-fill-icon: #ffffff;
+  
+    /* Portfolio */
+    --list-btn-b-shadow-hover: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  
+    /* Projects */
+   --cards-overlay-text-bgr: rgba(33, 150, 243, 0.9);
+   --list-item-b-shadow-hover: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+   1px 4px 6px rgba(0, 0, 0, 0.16);
+   --cards-border: 1px solid #eeeeee;
+  
+  }

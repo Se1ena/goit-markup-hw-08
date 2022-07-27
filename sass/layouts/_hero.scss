@@ -1,0 +1,72 @@
+/* Hero */
+
+.hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+  
+  background-color: var(--hero); 
+  
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+      ),
+    url(../images/hero/img.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  &__title {
+    display: block;
+    margin-bottom: 30px;
+    
+    color: var(--hero-text-color);
+    
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+      
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+}
+  
+  /* Кнопка "Замовити послугу" */
+  
+.button__label {
+  transition-property: color, background-color;
+  transition-duration: var(--duration);
+  transition-timing-function: var(--timing-function);
+  
+  border-radius: 4px;
+  border: var(--btn-label-border);
+  box-shadow: var(--btn-label-box-shadow); 
+  padding: 10px 32px;
+  min-width: 136px;
+  text-align: center;
+  
+  background-color: var(--primary-bgc-color-button);
+  color: var(--primary-text-button);
+  
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06em;
+  
+  cursor: pointer;
+
+  &:hover, 
+  &:focus{
+    background-color: var(--secondary-bgc-color-button);
+    color: var(--secondary-text-button);
+  }
+}
+ 

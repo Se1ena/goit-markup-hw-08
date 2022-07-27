@@ -1,0 +1,106 @@
+.section-team__title {
+  margin-bottom: 50px;
+
+  color: var(--primary-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.profession {
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  &__title {
+    padding-bottom: 10px;
+  
+    color: var(--primary-text-color);
+  
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+  }
+
+  &__text {
+    color: var(--title-text-color);
+  
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+  }
+}
+    
+.team-list {
+  display: flex;
+  justify-content: space-between;
+  
+  gap: 30px;
+
+  &__photos {
+    background-color: var(--bgr-c-section-team-fotos);
+    box-shadow: var(--section-team-fotos-b-shadow);
+    border-radius: var(--border-section-team);
+    }
+} 
+  
+.section-team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  
+  background: var(--background-section-team);
+}
+  
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16px;
+  
+  gap: 10px;
+  
+  padding: 0px;
+  
+  list-style: none;
+}
+  
+.social-links{
+  &__icon {
+    transition-property: color, background-color;
+    transition-duration: var(--duration);
+    transition-timing-function: var(--timing-function);
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: var(--primary-color-icon);
+  
+    &:hover, 
+    &:focus{
+      background-color: var(--acent-color-icons);
+      color: var(--social-links-icon);
+    }
+  }
+
+  &__pic{
+    width: 44px;
+    height: 44px;
+    fill: currentColor;
+  }
+
+  &__icon.black-icon {
+    transition-property: color, background-color;
+    transition-duration: var(--duration);
+    transition-timing-function: var(--timing-function);
+    
+    background-color: var(--social-links-icon-bgr-c);
+    color: var(--social-links-icon);
+  }
+}
+  
