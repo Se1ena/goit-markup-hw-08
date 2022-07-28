@@ -80,6 +80,29 @@
               </a>
             </li>
           </ul>
+          <button
+            type="button"
+            class="menu-button is-open"
+            aria-expanded="falce"
+            aria-controls="menu-container"
+            data-menu-button
+          >
+            <svg
+              width="40px"
+              height="40px"
+              aria-label="Перемикач мобільного меню"
+            >
+              <use
+                class="icon-close"
+                href="./images/icons/sprite.svg#icon-close_40px"
+              ></use>
+              <use
+                class="icon-menu"
+                href="./images/icons/sprite.svg#icon-menu_40px"
+              ></use>
+            </svg>
+          </button>
+          <div class="menu-container is-open" id="menu-container" data-menu>Контент меню</div>
         </nav>
       </div>
     </header>
@@ -650,5 +673,7 @@
     </footer>
     <!--Підключення Modal window-->
     <script src="./js/modal.js"></script>
+      <!--Підключення Menu-->
+      <script src="./js/menu.js"></script>
   </body>
 </html>
