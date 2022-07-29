@@ -12,50 +12,6 @@ header {
   align-items: center;
 }
 
-/* Mobile menu */
-
-.menu-button{
-  @media screen and (max-width: 768px) {
-    margin-left: 284px;
-  }
-
-  display: inline-flex;
-  margin: 0;
-  padding: 0;
-  border:none;
-  background-color: transparent;
-}
-
-.menu-button .icon-close{
-  display: none;
-}
-
-.menu-button.is-open .icon-close{
-  display: block;
-}
-
-.menu-button.is-open .icon-menu{
-  display: none;
-}
-
-.menu-container{
-  display: none;
-
-  position: absolute;
-  top: 100%;
-  left: 0;
-  width: 100%;
-
-  background-color: var(--bgr-color-menu);
-  padding: 0px 48px 40px 48px;
-  text-align: center;
-  font-size: 40px;
-
-  &.is-open{
-    display: block;
-  }
-}
-
 /* Site nav */
 
 .site-nav {
