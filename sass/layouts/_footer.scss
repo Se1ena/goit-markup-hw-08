@@ -9,6 +9,7 @@
 
 .footer-list {
   margin-top: 20px;
+  text-align: center;
 
   &__adress {
     transition-property: color;
@@ -49,7 +50,7 @@
   }
 
   &__item:not(:last-child) {
-    margin-bottom: 9px;
+    margin-bottom: 8px;
   }
 }
   

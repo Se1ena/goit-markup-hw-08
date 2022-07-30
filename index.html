@@ -22,7 +22,7 @@
     <!--Препроцесор SASS-->
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
-  <body>
+  <body class="page no-scroll">
     <!--Header-->
     <header class="page-header">
       <div class="container">
@@ -80,9 +80,10 @@
               </a>
             </li>
           </ul>
+          <!--Mobile menu button-->
           <button
             type="button"
-            class="menu-button "
+            class="menu-button"
             aria-expanded="false"
             aria-controls="menu-container"
             data-menu-button
@@ -102,9 +103,47 @@
               ></use>
             </svg>
           </button>
-          <div class="menu-container" id="menu-container" data-menu>
-            <div class="navigation"></div>
-            <div class="contacts"></div>
+          <!--Mobile menu-->
+          <div class="mobile-menu" id="menu-container" data-menu>
+            <ul class="mobile-menu-nav list">
+              <li class="mobile-menu-nav__item">
+                <a
+                  class="mobile-menu-nav__link mobile-menu__link--current"
+                  href="./index.html"
+                  >Студія</a
+                >
+              </li>
+              <li class="mobile-menu-nav__item">
+                <a class="mobile-menu-nav__link" href="./portfolio.html"
+                  >Портфоліо</a
+                >
+              </li>
+              <li class="mobile-menu-nav__item">
+                <a class="mobile-menu-nav__link" href="Контакти">Контакти</a>
+              </li>
+            </ul>
+            <ul class="mobile-menu-contacts list">
+              <li class="mobile-menu-contacts__item">
+                <a class="mobile-menu-contacts__telephone" href="tel:+38 096 111 11 11">+38 096 111 11 11</a>
+              </li>
+              <li class="mobile-menu-contacts__item">
+                <a class="mobile-menu-contacts__mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+              </li>
+            </ul>
+            <ul class="mobile-menu-socials list">
+              <li class="mobile-menu-socials__item">
+                <a class="mobile-menu-socials__link" lang="en" href="">Instagram</a>
+              </li>
+              <li class="mobile-menu-socials__item">
+                <a class="mobile-menu-socials__link" lang="en" href="">Twitter</a>
+              </li>
+              <li class="mobile-menu-socials__item">
+                <a class="mobile-menu-socials__link" lang="en" href="">Facebook</a>
+              </li>
+              <li class="mobile-menu-socials__item">
+                <a class="mobile-menu-socials__link" lang="en" href="">LinkedIn</a>
+              </li>
+            </ul>
           </div>
         </nav>
       </div>

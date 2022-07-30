@@ -1,6 +1,9 @@
 /* Footer-icons */
 
-.footer-icons__title {
+.footer-icons {
+  text-align: center;
+
+  &__title{
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -9,6 +12,8 @@
   text-transform: uppercase;
   
   color: var(--social-links-icon);
+  }
+  
 }
   
 .social-group{
@@ -46,13 +51,14 @@
     fill: currentColor;
   }
 }
-  
-.footer .container{
-  display: flex;
-  
-  align-items: baseline;
-}
-  
+    
 .section-join{
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+
+  padding-top: 60px;
+  padding-bottom: 60px;
+  
   margin-right: auto;
 }

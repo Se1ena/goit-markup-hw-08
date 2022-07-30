@@ -1,6 +1,10 @@
 /* Form subscribe */
 
 .subscribe{
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+
   &__title {
     margin-bottom: 20px;
   
@@ -14,11 +18,11 @@
   }
 
   &__text {
-    width: 358px;
+    width: 100%;
     height: 50px;
     padding: 15px 0px 15px 16px;
     margin: 0;
-    margin-right: 12px;
+    margin-bottom: 20px;
   
     border: var(--subscribe-text-border);
     filter: var(--subscribe-text-filter);
