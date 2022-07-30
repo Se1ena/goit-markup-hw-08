@@ -30,11 +30,17 @@
   
   padding: 40px;
   
-  min-width: 528px;
+  min-height: 528px;
   min-height: 581px;
   border-radius: 4px;
   box-shadow: var(--madal-w-box-shadow);
   background-color: var(--bgr-color-modal-window); 
+
+  @media screen and (max-width:767px){
+    width: calc(100% - 30px);   
+  }
+
+  
 
   &__icon {
     width: 11px; 

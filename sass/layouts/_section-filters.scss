@@ -1,8 +1,8 @@
 /* Section-filters */
 
 .section-filters {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 
   &__title {
     display: none;
@@ -12,9 +12,12 @@
 /* Кнопки фильтру портфоліо */
     
 .list-buttons {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   display: flex;
   justify-content: center;
+
+  flex-wrap: wrap;
+  justify-content: flex-start;
 
   &__item {
     display: inline-block;

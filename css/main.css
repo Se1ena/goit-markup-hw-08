@@ -65,10 +65,9 @@ body {
   font-family: Roboto, sans-serif;
 }
 
-.no-scroll {
-  overflow: hidden;
-}
-
+/*.no-scroll{
+  overflow:hidden;
+}*/
 h1,
 h2,
 h3,
@@ -203,29 +202,13 @@ ul {
 }
 
 .container {
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
-  width: 1200px;
+  max-width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   /*outline: 2px solid tomato;*/
-}
-@media screen and (min-width: 480px) {
-  .container {
-    width: 480px;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .container {
-    width: 768px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .container {
-    width: 1200px;
-  }
 }
 
 .list {
@@ -353,7 +336,6 @@ header {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin-left: 96px;
   }
 }
 .link-list__link {
@@ -426,6 +408,12 @@ header {
     line-height: 1.62;
   }
 }
+@media screen and (max-width: 768px) {
+  .hero__title {
+    font-size: 26px;
+    line-height: 1.62;
+  }
+}
 
 /* Кнопка "Замовити послугу" */
 .button__label {
@@ -486,12 +474,17 @@ header {
   top: 50%;
   left: 50%;
   padding: 40px;
-  min-width: 528px;
+  min-height: 528px;
   min-height: 581px;
   border-radius: 4px;
   -webkit-box-shadow: var(--madal-w-box-shadow);
           box-shadow: var(--madal-w-box-shadow);
   background-color: var(--bgr-color-modal-window);
+}
+@media screen and (max-width: 767px) {
+  .modal-window {
+    width: calc(100% - 30px);
+  }
 }
 .modal-window__icon {
   width: 11px;
@@ -751,6 +744,13 @@ header {
   margin-bottom: 30px;
   width: 100%;
 }
+@media screen and (min-width: 768px) {
+  .feature-list__item {
+    margin: 15;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+}
 .feature-list__item:last-child {
   margin: 0px;
 }
@@ -837,7 +837,7 @@ header {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199px) {
   .section-works {
     display: none;
   }
@@ -890,7 +890,8 @@ header {
   margin-bottom: 0;
 }
 .team-list__photo {
-  width: 450px;
+  width: 100%;
+  display: block;
 }
 
 .social {
@@ -1264,7 +1265,7 @@ header {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    z-index: 1;
+    z-index: 10;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -1275,7 +1276,7 @@ header {
             justify-content: center;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
   .menu-button {
     display: none;
   }
@@ -1298,8 +1299,9 @@ header {
   padding: 0px 48px 40px 48px;
   text-align: center;
   font-size: 40px;
+  z-index: 1;
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 767px) {
   .mobile-menu {
     display: none;
   }
