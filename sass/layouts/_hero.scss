@@ -8,7 +8,6 @@
   background-color: var(--hero); 
   
   max-width: 1600px;
-  height: 600px;
   margin-left: auto;
   margin-right: auto;
   
@@ -34,6 +33,11 @@
       
     letter-spacing: 0.06em;
     text-transform: uppercase;
+
+    @media screen and (max-width: 480px){
+      font-size: 26px;
+      line-height: 1.62;
+    }
   }
 }
   
@@ -47,8 +51,8 @@
   border-radius: 4px;
   border: var(--btn-label-border);
   box-shadow: var(--btn-label-box-shadow); 
-  padding: 10px 32px;
-  min-width: 136px;
+  width: 200px;
+  height: 50px;
   text-align: center;
   
   background-color: var(--primary-bgc-color-button);

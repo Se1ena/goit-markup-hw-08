@@ -209,6 +209,8 @@ ul {
 @media screen and (min-width: 480px) {
   .container {
     width: 480px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -236,6 +238,12 @@ ul {
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
+}
+@media screen and (min-width: 480px) {
+  .main-nav__logo {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
 }
 .main-nav__accent {
   color: var(--accent-text-color);
@@ -390,7 +398,6 @@ header {
   text-align: center;
   background-color: var(--hero);
   max-width: 1600px;
-  height: 600px;
   margin-left: auto;
   margin-right: auto;
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/hero/img.jpg);
@@ -409,6 +416,12 @@ header {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
+@media screen and (max-width: 480px) {
+  .hero__title {
+    font-size: 26px;
+    line-height: 1.62;
+  }
+}
 
 /* Кнопка "Замовити послугу" */
 .button__label {
@@ -422,8 +435,8 @@ header {
   border: var(--btn-label-border);
   -webkit-box-shadow: var(--btn-label-box-shadow);
           box-shadow: var(--btn-label-box-shadow);
-  padding: 10px 32px;
-  min-width: 136px;
+  width: 200px;
+  height: 50px;
   text-align: center;
   background-color: var(--primary-bgc-color-button);
   color: var(--primary-text-button);
@@ -1267,10 +1280,20 @@ header {
     top: 100%;
     left: 0;
     width: 100%;
-    padding: 48px 40px 48px 40px;
+    height: 100vh;
+    padding: 48px 0px;
+    padding-left: 40px;
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+    -webkit-transition: -webkit-transform 250ms ease-in-out;
+    transition: -webkit-transform 250ms ease-in-out;
+    transition: transform 250ms ease-in-out;
+    transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
   }
   .menu-container.is-open {
     display: block;
+    -webkit-transform: translate(0);
+            transform: translate(0);
   }
 }
 @media screen and (min-width: 768px) {
