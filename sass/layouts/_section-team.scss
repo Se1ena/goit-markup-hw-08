@@ -44,16 +44,24 @@
 }
     
 .team-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
 
   &__photos {
     background-color: var(--bgr-c-section-team-fotos);
     box-shadow: var(--section-team-fotos-b-shadow);
     border-radius: var(--border-section-team);
-    margin-bottom: 30px;
+    
     
     &:last-child{
       margin-bottom: 0;
     }
+
+    @media screen and (min-width: 768px){
+      width: calc((100% - 30px)/2);
+    }
+    
   }
 
   &__photo{

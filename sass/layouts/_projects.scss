@@ -18,6 +18,21 @@
     &:focus{
       box-shadow: var(--list-item-b-shadow-hover);
     }
+
+    @media screen and (min-width: 768px) {
+      width: calc((100% - 30px)/2);
+    }
+
+    &--grow{
+      @media screen and (min-width: 768px) {
+        display: flex;
+        flex-direction: column;
+        height: 100%;      
+    }
+    }
+      
+
+    
   }
 
   &__item:hover .cards-overlay__text {
@@ -76,6 +91,13 @@
   padding-left: 24px;
   
   border: var(--cards-border);
+
+  @media screen and (min-width: 768px) {
+    &--grow{
+      flex-grow: 1;
+    }
+  }
+  
 
   &__title {
     margin-bottom: 4px;

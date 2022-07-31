@@ -199,8 +199,6 @@ ul {
   --list-item-b-shadow-hover: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
   1px 4px 6px rgba(0, 0, 0, 0.16);
   --cards-border: 1px solid #eeeeee;
-  /* Others */
-  --indent: 30px;
 }
 
 .container {
@@ -403,6 +401,13 @@ header {
       -ms-flex-pack: start;
           justify-content: flex-start;
 }
+@media screen and (min-width: 768px) {
+  .list-buttons {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
 .list-buttons__item {
   display: inline-block;
   border: 1px solid transparent;
@@ -471,6 +476,23 @@ header {
   -webkit-box-shadow: var(--list-item-b-shadow-hover);
           box-shadow: var(--list-item-b-shadow-hover);
 }
+@media screen and (min-width: 768px) {
+  .project-list__item {
+    width: calc((100% - 30px) / 2);
+  }
+}
+@media screen and (min-width: 768px) {
+  .project-list__item--grow {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 100%;
+  }
+}
 .project-list__item:hover .cards-overlay__text {
   -webkit-transform: translateY(0);
           transform: translateY(0);
@@ -526,6 +548,13 @@ header {
   padding-left: 24px;
   border: var(--cards-border);
 }
+@media screen and (min-width: 768px) {
+  .project-cards--grow {
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+  }
+}
 .project-cards__title {
   margin-bottom: 4px;
   color: var(--primary-text-color);
@@ -554,6 +583,12 @@ header {
       -ms-flex-align: center;
           align-items: center;
 }
+@media screen and (min-width: 768px) {
+  .footer-logo {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+  }
+}
 .footer-logo__link {
   display: block;
   font-family: var(--logo-font);
@@ -573,6 +608,19 @@ header {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--footer);
+}
+@media screen and (min-width: 768px) {
+  .footer__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
 }
 
 .footer-list {
@@ -692,6 +740,13 @@ header {
   padding-bottom: 60px;
   margin-right: auto;
 }
+@media screen and (min-width: 768px) {
+  .section-join {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+    padding: 0%;
+  }
+}
 
 /* Form subscribe */
 .subscribe {
@@ -705,6 +760,14 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .subscribe {
+    min-width: 450px;
+    justify-self: center;
+    margin: auto;
+    margin-top: 60px;
+  }
 }
 .subscribe__title {
   margin-bottom: 20px;
