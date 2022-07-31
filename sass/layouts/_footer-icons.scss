@@ -3,6 +3,11 @@
 .footer-icons {
   text-align: center;
 
+  @media screen and (min-width: 1200px) {
+    text-align: start;
+    margin-right: 93px;
+  }
+
   &__title{
   font-weight: 700;
   font-size: 14px;

@@ -8,6 +8,12 @@
   @media screen and (min-width: 768px) {
     flex-basis: 50%;
   }
+ 
+  @media screen and (min-width: 1200px) {
+    flex-basis: 0;
+    text-align: left;
+  }
+  
 
   &__link {
     display: block;
@@ -21,6 +27,12 @@
     text-decoration: none;
   
     color: var(--logo-text-color-footer);
+
+    @media screen and (min-width: 1200px) {
+      font-size: 26px;
+      line-height: 1.19;
+      margin-right: 70px;
+    }
   }
 
   &__accent {

@@ -726,6 +726,12 @@ header {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+@media screen and (min-width: 1200px) {
+  .section-feature {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
 
 .feature-list {
   display: -webkit-box;
@@ -734,6 +740,15 @@ header {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   gap: 30px;
+}
+@media screen and (min-width: 1200px) {
+  .feature-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
 }
 .feature-list__title {
   padding-bottom: 10px;
@@ -763,7 +778,6 @@ header {
 .feature-list__item:last-child {
   margin: 0px;
 }
-
 .list-item__icon {
   width: 70px;
   height: 70px;
@@ -843,7 +857,6 @@ header {
 }
 
 .section-works {
-  padding-top: 94px;
   padding-bottom: 94px;
 }
 @media screen and (max-width: 1199px) {
@@ -856,6 +869,12 @@ header {
   padding-top: 60px;
   padding-bottom: 60px;
   background: var(--background-section-team);
+}
+@media screen and (min-width: 1200px) {
+  .section-team {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 .section-team__title {
   margin-bottom: 30px;
@@ -895,6 +914,12 @@ header {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   gap: 30px;
+}
+@media screen and (min-width: 1200px) {
+  .team-list {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
 }
 .team-list__photos {
   background-color: var(--bgr-c-section-team-fotos);
@@ -975,6 +1000,12 @@ header {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+@media screen and (min-width: 1200px) {
+  .section-clients {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
 
 .clients__title {
   margin-bottom: 50px;
@@ -999,8 +1030,19 @@ header {
   padding: 0;
   margin: 0;
 }
+@media screen and (min-width: 1200px) {
+  .clients__list {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+}
 .clients__item {
   list-style: none;
+}
+@media screen and (min-width: 480px) {
+  .clients__item {
+    width: calc((100% - 30px) / 2);
+  }
 }
 @media screen and (min-width: 768px) {
   .clients__item {
@@ -1054,6 +1096,13 @@ header {
         flex-basis: 50%;
   }
 }
+@media screen and (min-width: 1200px) {
+  .footer-logo {
+    -ms-flex-preferred-size: 0;
+        flex-basis: 0;
+    text-align: left;
+  }
+}
 .footer-logo__link {
   display: block;
   font-family: var(--logo-font);
@@ -1063,6 +1112,13 @@ header {
   letter-spacing: 0.03em;
   text-decoration: none;
   color: var(--logo-text-color-footer);
+}
+@media screen and (min-width: 1200px) {
+  .footer-logo__link {
+    font-size: 26px;
+    line-height: 1.19;
+    margin-right: 70px;
+  }
 }
 .footer-logo__accent {
   color: var(--accent-text-color);
@@ -1087,10 +1143,28 @@ header {
         flex-wrap: wrap;
   }
 }
+@media screen and (min-width: 1200px) {
+  .footer__container {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+}
 
 .footer-list {
   margin-top: 20px;
   text-align: center;
+}
+@media screen and (min-width: 1200px) {
+  .footer-list {
+    text-align: start;
+    width: 231px;
+  }
 }
 .footer-list__adress {
   -webkit-transition-property: color;
@@ -1129,10 +1203,21 @@ header {
 .footer-list__item:not(:last-child) {
   margin-bottom: 8px;
 }
+@media screen and (min-width: 1200px) {
+  .footer-list__item:not(:last-child) {
+    margin-bottom: 9px;
+  }
+}
 
 /* Footer-icons */
 .footer-icons {
   text-align: center;
+}
+@media screen and (min-width: 1200px) {
+  .footer-icons {
+    text-align: start;
+    margin-right: 93px;
+  }
 }
 .footer-icons__title {
   font-weight: 700;
@@ -1232,6 +1317,14 @@ header {
     justify-self: center;
     margin: auto;
     margin-top: 60px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .subscribe {
+    margin: 0;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
   }
 }
 .subscribe__title {

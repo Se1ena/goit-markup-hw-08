@@ -7,6 +7,11 @@
 .section-feature {
   padding-top: 60px;
   padding-bottom: 60px;
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
   
 .feature-list {
@@ -14,6 +19,10 @@
   flex-wrap: wrap;
   gap: 30px;
   
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    flex-wrap: nowrap;
+  }
 
   &__title {
     padding-bottom: 10px;
@@ -48,6 +57,10 @@
 
   &__item:last-child {
     margin: 0px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    
   }
 }
     

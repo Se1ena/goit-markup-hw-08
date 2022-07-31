@@ -13,12 +13,22 @@
       flex-wrap: wrap;
     }
     
+    @media screen and (min-width: 1200px) {
+      flex-wrap: nowrap;
+      align-items: baseline;
+      justify-content: flex-start;
+    }
   }
 }
 
 .footer-list {
   margin-top: 20px;
   text-align: center;
+
+  @media screen and (min-width: 1200px) {
+    text-align: start;
+    width:231px;
+  }
 
   &__adress {
     transition-property: color;
@@ -60,6 +70,10 @@
 
   &__item:not(:last-child) {
     margin-bottom: 8px;
+
+    @media screen and (min-width: 1200px) {
+      margin-bottom: 9px;
+    }
   }
 }
   
