@@ -111,7 +111,7 @@
            </ul>
            <ul class="mobile-menu-contacts list">
              <li class="mobile-menu-contacts__item">
-               <a class="mobile-menu-contacts__telephone" href="tel:+38 096 111 11 11">+38 096 111 11 11</a>
+               <a class="mobile-menu-contacts__telephone" href="tel:+380961111111">+38 096 111 11 11</a>
              </li>
              <li class="mobile-menu-contacts__item">
                <a class="mobile-menu-contacts__mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
@@ -135,10 +135,6 @@
        </nav>
      </div>
    </header>
-   <main>
-        </nav>
-      </div>
-    </header>
     <main>
       <!--Filters-->
       <section class="section-filters">
@@ -165,12 +161,22 @@
           <ul class="project-list">
             <li class="project-list__item project-list__item--grow">
               <div class="cards-overlay">
-                <img class="cards-overlay__image"
-                  src="./images/portfolio/Technoquack.jpg"
+                <picture>
+                  <!--desktop screen-->
+                  <source
+                    media="(min-width: 1200px)"
+                    srcset="./images/portfolio-addaptive/port_1desk@1x_result.jpg 1x, ./images/portfolio-addaptive/port_1desk@2x_result.jpg 2x"
+                    type="image/jpg">
+                  <!--tablet screen-->
+                  <source media="(min-width: 768px)" srcset="./images/portfolio-addaptive/port_1tabl@1x_result.jpg 1x, ./images/portfolio-addaptive/port_1tabl@2x_result.jpg 2x" type="image/jpg">
+                  <!--mobile screen-->
+                  <source media="(max-width: 767px)" srcset="./images/portfolio-addaptive/port_1mob@1x_result.jpg 1x, ./images/portfolio-addaptive/port_1mob@2x_result.jpg 2x" type="image/jpg">
+                  <img class="cards-overlay__image"
+                  src="./images/portfolio-addaptive/port_1mob@1x_result.jpg"
                   alt="Показан веб-сайт на ноутбуке"
                   width="450"
-                  height="294"
-                />
+                  height="294">
+                </picture>
                 <p class="cards-overlay__text">
                   Ресурс пропонує комплексні пропозиції з різним рівнем
                   функціоналу та сервісів. Все це дозволить відвідувачу отримати
@@ -184,12 +190,24 @@
             </li>
             <li class="project-list__item">
               <div class="cards-overlay">
-                <img class="cards-overlay__image"
-                  src="./images/portfolio/Poster.jpg"
-                  alt="Постер"
-                  width="450"
-                  height="294"
+              <picture>
+                <!--desktop screen-->
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="./images/portfolio-addaptive/port_2desk@1x_result.jpg 1x, ./images/portfolio-addaptive/port_2desk@2x_result.jpg 2x"
+                  type="image/jpg"
                 />
+                <!--tablet screen-->
+                <source media="(min-width: 768px)" srcset="./images/portfolio-addaptive/port_2tabl@1x_result.jpg 1x, ./images/portfolio-addaptive/port_2tabl@2x_result.jpg 2x" type="image/jpg" />
+                <!--mobile screen-->
+                <source media="(max-width: 767px)" srcset="./images/portfolio-addaptive/port_2mob@1x_result.jpg 1x, ./images/portfolio-addaptive/port_2mob@2x_result.jpg 2x" type="image/jpg" />
+                  <img class="cards-overlay__image"
+                    src="./images/portfolio-addaptive/port_2mob@1x_result.jpg"
+                    alt="Постер"
+                    width="450"
+                    height="294"
+                  />
+              </picture>
                 <p class="cards-overlay__text">
                   Ресурс пропонує комплексні пропозиції з різним рівнем
                   функціоналу та сервісів. Все це дозволить відвідувачу отримати
@@ -203,12 +221,24 @@
             </li>
             <li class="project-list__item">
               <div class="cards-overlay">
-                <img class="cards-overlay__image"
-                  src="./images/portfolio/Restaurant.jpg"
+                <picture>
+                  <!--desktop screen-->
+                  <source
+                    media="(min-width: 1200px)"
+                    srcset="./images/portfolio-addaptive/port_3desk@1x_result.jpg 1x, ./images/portfolio-addaptive/port_3desk@2x_result.jpg 2x"
+                    type="image/jpg"
+                  />
+                  <!--tablet screen-->
+                  <source media="(min-width: 768px)" srcset="./images/portfolio-addaptive/port_3tabl@1x_result.jpg 1x, ./images/portfolio-addaptive/port_3tabl@2x_result.jpg 2x" type="image/jpg" />
+                  <!--mobile screen-->
+                  <source media="(max-width: 767px)" srcset="./images/portfolio-addaptive/port_3mob@1x_result.jpg 1x, ./images/portfolio-addaptive/port_3mob@2x_result.jpg 2x" type="image/jpg" />
+                    <img class="cards-overlay__image"
+                  src="./images/portfolio-addaptive/port_3mob@1x_result.jpg"
                   alt="Логотип додатку Ресторану Seafood"
                   width="450"
                   height="294"
                 />
+                </picture>
                 <p class="cards-overlay__text">
                   Ресурс пропонує комплексні пропозиції з різним рівнем
                   функціоналу та сервісів. Все це дозволить відвідувачу отримати
@@ -222,12 +252,24 @@
             </li>
             <li class="project-list__item">
               <div class="cards-overlay">
-                <img class="cards-overlay__image"
-                  src="./images/portfolio/PrPrime.jpg"
-                  alt="Бездротові, черні навушники на білом фоні"
+                <picture>
+                  <!--desktop screen-->
+                  <source
+                    media="(min-width: 1200px)"
+                    srcset="./images/portfolio-addaptive/port_4desk@1x_result.jpg 1x, ./images/portfolio-addaptive/port_4desk@2x_result.jpg 2x"
+                    type="image/jpg"
+                  />
+                  <!--tablet screen-->
+                  <source media="(min-width: 768px)" srcset="./images/portfolio-addaptive/port_4tabl@1x_result.jpg 1x, ./images/portfolio-addaptive/port_4tabl@2x_result.jpg 2x" type="image/jpg" />
+                  <!--mobile screen-->
+                  <source media="(max-width: 767px)" srcset="./images/portfolio-addaptive/port_4mob@1x_result.jpg 1x, ./images/portfolio-addaptive/port_4mob@2x_result.jpg 2x" type="image/jpg" />
+                    <img class="cards-overlay__image"
+                  src="./images/portfolio-addaptive/port_4mob@1x_result.jpg"
+                  alt="Бездротові, чoрні навушники на білом фоні"
                   width="450"
                   height="294"
                 />
+                </picture>
                 <p class="cards-overlay__text">
                   Ресурс пропонує комплексні пропозиції з різним рівнем
                   функціоналу та сервісів. Все це дозволить відвідувачу отримати
@@ -241,12 +283,24 @@
             </li>
             <li class="project-list__item">
               <div class="cards-overlay">
-                <img class="cards-overlay__image"
-                  src="./images/portfolio/PrBoxes.jpg"
+                <picture>
+                  <!--desktop screen-->
+                  <source
+                    media="(min-width: 1200px)"
+                    srcset="./images/portfolio-addaptive/port_5desk@1x_result.jpg 1x, ./images/portfolio-addaptive/port_5desk@2x_result.jpg 2x"
+                    type="image/jpg"
+                  />
+                  <!--tablet screen-->
+                  <source media="(min-width: 768px)" srcset="./images/portfolio-addaptive/port_5tabl@1x_result.jpg 1x, ./images/portfolio-addaptive/port_5tabl@2x_result.jpg 2x" type="image/jpg" />
+                  <!--mobile screen-->
+                  <source media="(max-width: 767px)" srcset="./images/portfolio-addaptive/port_5mob@1x_result.jpg 1x, ./images/portfolio-addaptive/port_5mob@2x_result.jpg 2x" type="image/jpg" />
+                    <img class="cards-overlay__image"
+                  src="./images/portfolio-addaptive/port_5mob@1x_result.jpg"
                   alt="Коробки на білому фоні"
                   width="450"
                   height="294"
                 />
+                </picture>
                 <p class="cards-overlay__text">
                   Ресурс пропонує комплексні пропозиції з різним рівнем
                   функціоналу та сервісів. Все це дозволить відвідувачу отримати
@@ -260,12 +314,24 @@
             </li>
             <li class="project-list__item">
               <div class="cards-overlay">
-                <img class="cards-overlay__image"
-                  src="./images/portfolio/Inspiration.jpg"
-                  alt="На моніторі комп'ютера показано сайт"
-                  width="450"
-                  height="294"
-                />
+                <picture>
+                  <!--desktop screen-->
+                  <source
+                    media="(min-width: 1200px)"
+                    srcset="./images/portfolio-addaptive/port_6desk@1x_result.jpg 1x, ./images/portfolio-addaptive/port_6desk@2x_result.jpg 2x"
+                    type="image/jpg"
+                  />
+                  <!--tablet screen-->
+                  <source media="(min-width: 768px)" srcset="./images/portfolio-addaptive/port_6tabl@1x_result.jpg 1x, ./images/portfolio-addaptive/port_6tabl@2x_result.jpg 2x" type="image/jpg" />
+                  <!--mobile screen-->
+                  <source media="(max-width: 767px)" srcset="./images/portfolio-addaptive/port_6mob@1x_result.jpg 1x, ./images/portfolio-addaptive/port_6mob@2x_result.jpg 2x" type="image/jpg" />
+                    <img class="cards-overlay__image"
+                    src="./images/portfolio-addaptive/port_6mob@1x_result.jpg"
+                    alt="На моніторі комп'ютера показано сайт"
+                    width="450"
+                    height="294"
+                  />
+                </picture>
                 <p class="cards-overlay__text">
                   Ресурс пропонує комплексні пропозиції з різним рівнем
                   функціоналу та сервісів. Все це дозволить відвідувачу отримати
@@ -279,12 +345,24 @@
             </li>
             <li class="project-list__item">
               <div class="cards-overlay">
-                <img class="cards-overlay__image"
-                  src="./images/portfolio/Edition.jpg"
+                <picture>
+                  <!--desktop screen-->
+                  <source
+                    media="(min-width: 1200px)"
+                    srcset="./images/portfolio-addaptive/port_7desk@1x_result.jpg 1x, ./images/portfolio-addaptive/port_7desk@2x_result.jpg 2x"
+                    type="image/jpg"
+                  />
+                  <!--tablet screen-->
+                  <source media="(min-width: 768px)" srcset="./images/portfolio-addaptive/port_7tabl@1x_result.jpg 1x, ./images/portfolio-addaptive/port_7tabl@2x_result.jpg 2x" type="image/jpg" />
+                  <!--mobile screen-->
+                  <source media="(max-width: 767px)" srcset="./images/portfolio-addaptive/port_7mob@1x_result.jpg 1x, ./images/portfolio-addaptive/port_7mob@2x_result.jpg 2x" type="image/jpg" />
+                    <img class="cards-overlay__image"
+                  src="./images/portfolio-addaptive/port_7mob@1x_result.jpg"
                   alt="Журнал зі статтею видавництва"
                   width="450"
                   height="294"
                 />
+                </picture>
                 <p class="cards-overlay__text">
                   Ресурс пропонує комплексні пропозиції з різним рівнем
                   функціоналу та сервісів. Все це дозволить відвідувачу отримати
@@ -298,12 +376,24 @@
             </li>
             <li class="project-list__item">
               <div class="cards-overlay">
-                <img class="cards-overlay__image"
-                  src="./images/portfolio/PrLAB.jpg"
+                <picture>
+                  <!--desktop screen-->
+                  <source
+                    media="(min-width: 1200px)"
+                    srcset="./images/portfolio-addaptive/port_8desk@1x_result.jpg 1x, ./images/portfolio-addaptive/port_8desk@2x_result.jpg 2x"
+                    type="image/jpg"
+                  />
+                  <!--tablet screen-->
+                  <source media="(min-width: 768px)" srcset="./images/portfolio-addaptive/port_8tabl@1x_result.jpg 1x, ./images/portfolio-addaptive/port_8tabl@2x_result.jpg 2x" type="image/jpg" />
+                  <!--mobile screen-->
+                  <source media="(max-width: 767px)" srcset="./images/portfolio-addaptive/port_8mob@1x_result.jpg 1x, ./images/portfolio-addaptive/port_8mob@2x_result.jpg 2x" type="image/jpg" />
+                    <img class="cards-overlay__image"
+                  src="./images/portfolio-addaptive/port_8mob@1x_result.jpg"
                   alt="Лейбл з логотипом компанії"
                   width="450"
                   height="294"
                 />
+                </picture>
                 <p class="cards-overlay__text">
                   Ресурс пропонує комплексні пропозиції з різним рівнем
                   функціоналу та сервісів. Все це дозволить відвідувачу отримати
@@ -317,12 +407,24 @@
             </li>
             <li class="project-list__item">
               <div class="cards-overlay">
-                <img class="cards-overlay__image"
-                  src="./images/portfolio/Business.jpg"
+                <picture>
+                  <!--desktop screen-->
+                  <source
+                    media="(min-width: 1200px)"
+                    srcset="./images/portfolio-addaptive/port_9desk@1x_result.jpg 1x, ./images/portfolio-addaptive/port_9desk@2x_result.jpg 2x"
+                    type="image/jpg"
+                  />
+                  <!--tablet screen-->
+                  <source media="(min-width: 768px)" srcset="./images/portfolio-addaptive/port_9tabl@1x_result.jpg 1x, ./images/portfolio-addaptive/port_9tabl@2x_result.jpg 2x" type="image/jpg" />
+                  <!--mobile screen-->
+                  <source media="(max-width: 767px)" srcset="./images/portfolio-addaptive/port_9mob@1x_result.jpg 1x, ./images/portfolio-addaptive/port_9mob@2x_result.jpg 2x" type="image/jpg" />
+                    <img class="cards-overlay__image"
+                  src="./images/portfolio-addaptive/port_9mob@1x_result.jpg"
                   alt="Відкритий додаток на ноутбуці"
                   width="450"
                   height="294"
                 />
+                </picture>
                 <p class="cards-overlay__text">
                   Ресурс пропонує комплексні пропозиції з різним рівнем
                   функціоналу та сервісів. Все це дозволить відвідувачу отримати
