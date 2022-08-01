@@ -87,6 +87,12 @@ ul {
   list-style: none;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 :root {
   /* Fonts */
   --main-font: "Roboto", sans-serif;
@@ -470,7 +476,6 @@ header {
           transition-duration: var(--duration);
   -webkit-transition-timing-function: var(--timing-function);
           transition-timing-function: var(--timing-function);
-  gap: 30px;
 }
 .project-list__item:hover, .project-list__item:focus {
   -webkit-box-shadow: var(--list-item-b-shadow-hover);
@@ -495,7 +500,6 @@ header {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    height: 100%;
   }
 }
 .project-list__item:hover .cards-overlay__text {

@@ -168,7 +168,7 @@
       <section class="hero">
         <div class="container">
           <h1 class="hero__title centered">
-            Эфективні рішення для<br>вашого бізнесу
+            Эфективні рішення для<br />вашого бізнесу
           </h1>
           <button data-modal-open type="button" class="button__label pointer">
             Замовити послугу
@@ -331,34 +331,73 @@
           <h2 class="section__title section__title--work">Чим ми займаємося</h2>
           <ul class="list-icons">
             <li class="list-icons__image list">
-              <img
-                class="list-icons__icon"
-                src="./images/boxes/one.png"
-                alt="Програмирование"
-                width="370"
-              />
+              <picture>
+                <!--desktop screen-->
+                <sourse
+                  media="(min-width: 1200px)"
+                  srcset="./images/boxes/one_result.jpg 1x, ./images/boxes/one_1lg2x_result.jpg 2x"
+                  type="image/jpg"
+                />
+                <!--tablet screen-->
+                <sourse media="(min-width: 768px)" srcset="" type="image/jpg" />
+                <!--mobile screen-->
+                <sourse media="(max-width: 767px)" srcset="" type="image/jpg" />
+                <img
+                  class="list-icons__icon"
+                  src="./images/boxes/one_result.jpg"
+                  alt="Програмування"
+                  width="370"
+                  height="294"
+                />
+              </picture>
               <div class="overlay">
                 <p class="overlay__text">Десктопні додатки</p>
               </div>
             </li>
             <li class="list-icons__image list">
-              <img
-                class="list-icons__icon"
-                src="./images/boxes/two.png"
-                alt="Визуализация"
-                width="370"
-              />
+              <picture>
+                <!--desktop screen-->
+                <sourse
+                  media="(min-width: 1200px)"
+                  srcset="./images/boxes/two_result.jpg 1x, ./images/boxes/two_2lg2x_result.jpg 2x"
+                  type="image/jpg"
+                />
+                <!--tablet screen-->
+                <sourse media="(min-width: 768px)" srcset="" type="image/jpg" />
+                <!--mobile screen-->
+                <sourse media="(max-width: 767px)" srcset="" type="image/jpg" />
+                <img
+                  class="list-icons__icon"
+                  src="./images/boxes/two_result.jpg"
+                  alt="Візуалізація"
+                  width="370"
+                  height="294"
+                />
+              </picture>
               <div class="overlay">
                 <p class="overlay__text">Мобільні додатки</p>
               </div>
             </li>
             <li class="list-icons__image list">
-              <img
-                class="list-icons__icon"
-                src="./images/boxes/three.png"
-                alt="Внимание к деталям"
-                width="370"
-              />
+              <picture>
+                <!--desktop screen-->
+                <sourse
+                  media="(min-width: 1200px)"
+                  srcset="./images/boxes/three_result.jpg 1x, ./images/boxes/three_3lg2x_result.jpg 2x"
+                  type="image/jpg"
+                />
+                <!--tablet screen-->
+                <sourse media="(min-width: 768px)" srcset="" type="image/jpg" />
+                <!--mobile screen-->
+                <sourse media="(max-width: 767px)" srcset="" type="image/jpg" />
+                <img
+                  class="list-icons__icon"
+                  src="./images/boxes/three_result.jpg"
+                  alt="Увага до деталей"
+                  width="370"
+                  height="294"
+                />
+              </picture>
               <div class="overlay">
                 <p class="overlay__text">Дизайнерські рішення</p>
               </div>
@@ -372,12 +411,25 @@
           <h2 class="section-team__title">Наша команда</h2>
           <ul class="team-list list">
             <li class="team-list__photos">
-              <img
-                class="team-list__photo"
-                src="./images/team/one.jpg"
-                alt="Фотография Product Designer"
-                width="270"
-              />
+              <picture>
+                <!--desktop screen-->
+                <sourse
+                  media="(min-width: 1200px)"
+                  srcset="./images/team/one_result.jpg 1x, ./images/team/one_lg2x_result.jpg 2x"
+                  type="image/jpg"
+                />
+                <!--tablet screen-->
+                <sourse media="(min-width: 768px)" srcset="./images/team-addaptive/team_1md_result.jpg 1x, ./images/team-addaptive/team_1md2x_result.jpg 2x" type="image/jpg" />
+                <!--mobile screen-->
+                <sourse media="(max-width: 767px)" srcset="./images/team-addaptive/team_1sm_result.jpg 1x, ./images/team-addaptive/team_1sm2x_result.jpg 2x" type="image/jpg" />
+                <img
+                  class="team-list__photo"
+                  src="./images/team-addaptive/team_1sm_result.jpg"
+                  alt="Фотографiя Product Designer"
+                  width="450"
+                  height="460"
+                />
+              </picture>
               <div class="profession">
                 <h3 class="profession__title">Ігор Дем'яненко</h3>
                 <p class="profession__text">Product Designer</p>
@@ -424,12 +476,25 @@
               </div>
             </li>
             <li class="team-list__photos">
-              <img
-                class="team-list__photo"
-                src="./images/team/two.jpg"
-                alt="Фотографія Frontend Developer"
-                width="270"
-              />
+              <picture>
+                <!--desktop screen-->
+                <sourse
+                  media="(min-width: 1200px)"
+                  srcset="./images/team/two_result.jpg 1x, ./images/team/two_lg2x_result.jpg 2x"
+                  type="image/jpg"
+                />
+                <!--tablet screen-->
+                <sourse media="(min-width: 768px)" srcset="./images/team-addaptive/team_2md_result.jpg 1x, ./images/team-addaptive/team_2md2x_result.jpg 2x" type="image/jpg" />
+                <!--mobile screen-->
+                <sourse media="(max-width: 767px)" srcset="./images/team-addaptive/team_2sm_result.jpg 1x, ./images/team-addaptive/team_2sm2x_result.jpg 2x" type="image/jpg" />
+                <img
+                  class="team-list__photo"
+                  src="./images/team-addaptive/team_2sm_result.jpg"
+                  alt="Фотографiя Frontend Developer"
+                  width="450"
+                  height="460"
+                />
+              </picture>
               <div class="profession">
                 <h3 class="profession__title">Ольга Репіна</h3>
                 <p class="profession__text">Frontend Developer</p>
@@ -476,12 +541,25 @@
               </div>
             </li>
             <li class="team-list__photos">
-              <img
-                class="team-list__photo"
-                src="./images/team/three.jpg"
-                alt="Фотографія Marketing"
-                width="270"
-              />
+              <picture>
+                <!--desktop screen-->
+                <sourse
+                  media="(min-width: 1200px)"
+                  srcset="./images/team/three_result.jpg 1x, ./images/team/three_lg2x_result.jpg 2x"
+                  type="image/jpg"
+                />
+                <!--tablet screen-->
+                <sourse media="(min-width: 768px)" srcset="./images/team-addaptive/team_3md_result.jpg 1x, ./images/team-addaptive/team_3md2x_result.jpg 2x" type="image/jpg" />
+                <!--mobile screen-->
+                <sourse media="(max-width: 767px)" srcset="./images/team-addaptive/team_3sm_result.jpg 1x, ./images/team-addaptive/team_3sm2x_result.jpg 2x" type="image/jpg" />
+                <img
+                  class="team-list__photo"
+                  src="./images/team-addaptive/team_3sm_result.jpg"
+                  alt="Фотографiя Marketing"
+                  width="450"
+                  height="460"
+                />
+              </picture>
               <div class="profession">
                 <h3 class="profession__title">Миколай Тарасов</h3>
                 <p class="profession__text">Marketing</p>
@@ -528,12 +606,25 @@
               </div>
             </li>
             <li class="team-list__photos">
-              <img
-                class="team-list__photo"
-                src="./images/team/four.jpg"
-                alt="Фотографія UI Designer"
-                width="270"
-              />
+              <picture>
+                <!--desktop screen-->
+                <sourse
+                  media="(min-width: 1200px)"
+                  srcset="./images/team/four_result.jpg 1x, ./images/team/four_lg2x_result.jpg 2x"
+                  type="image/jpg"
+                />
+                <!--tablet screen-->
+                <sourse media="(min-width: 768px)" srcset="./images/team-addaptive/team_4md_result.jpg 1x, ./images/team-addaptive/team_4md2x_result.jpg 2x" type="image/jpg" />
+                <!--mobile screen-->
+                <sourse media="(max-width: 767px)" srcset="./images/team-addaptive/team_4sm_result.jpg 1x, ./images/team-addaptive/team_4sm2x_result.jpg 2x" type="image/jpg" />
+                <img
+                  class="team-list__photo"
+                  src="./images/team-addaptive/team_4sm_result.jpg"
+                  alt="Фотографiя UI Designer"
+                  width="450"
+                  height="460"
+                />
+              </picture>
               <div class="profession">
                 <h3 class="profession__title">Михайло Єрмаков</h3>
                 <p class="profession__text">UI Designer</p>

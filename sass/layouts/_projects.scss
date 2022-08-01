@@ -12,7 +12,7 @@
     transition-duration: var(--duration);
     transition-timing-function: var(--timing-function);
   
-    gap: 30px;
+    
   
     &:hover,
     &:focus{
@@ -32,7 +32,6 @@
         &--grow{
           display: flex;
         flex-direction: column;
-        height: 100%;
         }    
     }
 
