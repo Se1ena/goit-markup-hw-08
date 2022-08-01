@@ -43,8 +43,16 @@
     background-color: var(--bgr-color-input);
   
     color: var(--subscribe-text-color);
+
+    @media screen and (min-width: 1200px) {
+      margin-right: 12px;
+    }
   }
 }
+
+
+
+    
   
 .subs-btn {
   transition-property: background-color;
