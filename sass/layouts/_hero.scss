@@ -21,6 +21,74 @@
   background-position: center;
   background-size: cover;
 
+  @media screen and (min-width: 0px) and (max-width: 479px) {
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/hero-addaptive/mobile1.jpg);
+
+    // Для ретіна екранів мобільна версія
+    @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+      background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+      ), url(../images/hero-addaptive/mobile2x.jpg);
+    }
+  }
+
+  @media screen and (min-width: 480px) and (max-width: 767px) {
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/hero-addaptive/mobile1.jpg);
+
+    // Для ретіна екранів мобільна версія
+    @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+      background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+      ), url(../images/hero-addaptive/mobile2x.jpg);
+    }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    max-width: 100%;
+
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/hero-addaptive/tablet1.jpg);
+
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+      ), url(../../images/hero-addaptive/tablet2x.jpg);
+    }
+  } 
+
+  @media screen and (min-width: 1200px) {
+   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+   url(../../images/hero-addaptive/desktop1.jpg);
+
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+      ), url(../../images/hero-addaptive/desktop2x.jpg);
+    }
+  }
+
   &__title {
     display: block;
     margin-bottom: 30px;
@@ -43,76 +111,9 @@
       font-size: 26px;
       line-height: 1.62;
     }
-  }
-
-  background-image: linear-gradient(
-    to right,
-    rgba(47, 48, 58, 0.4),
-    rgba(47, 48, 58, 0.4)
-    ), url(../images/hero-addaptive/mobile1.jpg);
+  }  
 }
 
-// Для ретіна екранів мобільна версія
-@media (min-device-pixel-ratio: 2),
-(-webkit-min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
-  .hero{
-    background-image: linear-gradient(
-      to right,
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-      ), url(../images/hero-addaptive/mobile2x.jpg);
-  }
-}
-
-@media (min-width: 480px){
-  .hero{
-    background-image: linear-gradient(
-      to right,
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-      ), url(../images/hero-addaptive/tablet1.jpg);
-  }
-
-  // Для ретіна екранів планшетна версія
-  @media (min-device-pixel-ratio: 2),
-  (-webkit-min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-    .hero{
-      background-image: linear-gradient(
-        to right,
-        rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)
-        ), url(../images/hero-addaptive/tablet2x.jpg);
-    }
-  }
-}
-
-@media (min-width: 768px){
-  .hero{
-    background-image: linear-gradient(
-      to right,
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-      ), url(../images/hero-addaptive/desktop1.jpg);
-  }
-
-  // Для ретіна екранів десктопна версія
-  @media (min-device-pixel-ratio: 2),
-  (-webkit-min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-    .hero{
-      background-image: linear-gradient(
-        to right,
-        rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)
-        ), url(../images/hero-addaptive/desktop2x.jpg);
-    }
-  }
-}
   
 /* Кнопка "Замовити послугу" */
   

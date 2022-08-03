@@ -31,7 +31,7 @@
       @media screen and (min-width: 768px) {
         &--grow{
           display: flex;
-        flex-direction: column;
+          flex-direction: column;
         }    
     }
 
@@ -65,7 +65,7 @@
     left: 0;
   
     
-    height: 294px;
+    height: 100%;
   
     margin: 0px;
     padding: 63px 24px 63px 24px;

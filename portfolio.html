@@ -13,7 +13,7 @@
     />-->
     <!--<link rel="stylesheet" href="./styles.css" />-->
     <!--Препроцесор SASS-->
-    <link rel="stylesheet" href="./css/portfolio.min.css">
+    <link rel="stylesheet" href="./css/portfolio.min.css" />
   </head>
   <body>
     <!--Header-->
@@ -21,7 +21,8 @@
       <div class="container">
         <nav class="main-nav">
           <a class="main-nav__logo" href="./index.html" title="WebStudio">
-            <span class="main-nav__accent">Web</span>Studio</a>
+            <span class="main-nav__accent">Web</span>Studio</a
+          >
           <ul class="site-nav list">
             <li class="site-nav__item">
               <a class="site-nav__link" href="./index.html" title="Студия">
@@ -67,74 +68,86 @@
               </a>
             </li>
           </ul>
-           <!--Mobile menu button-->
-           <button
-           type="button"
-           class="menu-button"
-           aria-expanded="false"
-           aria-controls="menu-container"
-           data-menu-button
-         >
-           <svg
-             width="40px"
-             height="40px"
-             aria-label="Перемикач мобільного меню"
-           >
-             <use
-               class="icon-close"
-               href="./images/icons/sprite.svg#icon-close_40px"
-             ></use>
-             <use
-               class="icon-menu"
-               href="./images/icons/sprite.svg#icon-menu_40px"
-             ></use>
-           </svg>
-         </button>
-         <!--Mobile menu-->
-         <div class="mobile-menu" id="menu-container" data-menu>
-           <ul class="mobile-menu-nav list">
-             <li class="mobile-menu-nav__item">
-               <a
-                 class="mobile-menu-nav__link"
-                 href="./index.html"
-                 >Студія</a
-               >
-             </li>
-             <li class="mobile-menu-nav__item mobile-menu__link--current">
-               <a class="mobile-menu-nav__link" href="./portfolio.html"
-                 >Портфоліо</a
-               >
-             </li>
-             <li class="mobile-menu-nav__item">
-               <a class="mobile-menu-nav__link" href="Контакти">Контакти</a>
-             </li>
-           </ul>
-           <ul class="mobile-menu-contacts list">
-             <li class="mobile-menu-contacts__item">
-               <a class="mobile-menu-contacts__telephone" href="tel:+380961111111">+38 096 111 11 11</a>
-             </li>
-             <li class="mobile-menu-contacts__item">
-               <a class="mobile-menu-contacts__mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
-             </li>
-           </ul>
-           <ul class="mobile-menu-socials list">
-             <li class="mobile-menu-socials__item">
-               <a class="mobile-menu-socials__link" lang="en" href="">Instagram</a>
-             </li>
-             <li class="mobile-menu-socials__item">
-               <a class="mobile-menu-socials__link" lang="en" href="">Twitter</a>
-             </li>
-             <li class="mobile-menu-socials__item">
-               <a class="mobile-menu-socials__link" lang="en" href="">Facebook</a>
-             </li>
-             <li class="mobile-menu-socials__item">
-               <a class="mobile-menu-socials__link" lang="en" href="">LinkedIn</a>
-             </li>
-           </ul>
-         </div>
-       </nav>
-     </div>
-   </header>
+          <!--Mobile menu button-->
+          <button
+            type="button"
+            class="menu-button"
+            aria-expanded="false"
+            aria-controls="menu-container"
+            data-menu-button
+          >
+            <svg
+              width="40px"
+              height="40px"
+              aria-label="Перемикач мобільного меню"
+            >
+              <use
+                class="icon-close"
+                href="./images/icons/sprite.svg#icon-close_40px"
+              ></use>
+              <use
+                class="icon-menu"
+                href="./images/icons/sprite.svg#icon-menu_40px"
+              ></use>
+            </svg>
+          </button>
+          <!--Mobile menu-->
+          <div class="mobile-menu" id="menu-container" data-menu>
+            <ul class="mobile-menu-nav list">
+              <li class="mobile-menu-nav__item">
+                <a class="mobile-menu-nav__link" href="./index.html">Студія</a>
+              </li>
+              <li class="mobile-menu-nav__item mobile-menu__link--current">
+                <a class="mobile-menu-nav__link" href="./portfolio.html"
+                  >Портфоліо</a
+                >
+              </li>
+              <li class="mobile-menu-nav__item">
+                <a class="mobile-menu-nav__link" href="Контакти">Контакти</a>
+              </li>
+            </ul>
+            <ul class="mobile-menu-contacts list">
+              <li class="mobile-menu-contacts__item">
+                <a
+                  class="mobile-menu-contacts__telephone"
+                  href="tel:+380961111111"
+                  >+38 096 111 11 11</a
+                >
+              </li>
+              <li class="mobile-menu-contacts__item">
+                <a
+                  class="mobile-menu-contacts__mail"
+                  href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+            <ul class="mobile-menu-socials list">
+              <li class="mobile-menu-socials__item">
+                <a class="mobile-menu-socials__link" lang="en" href=""
+                  >Instagram</a
+                >
+              </li>
+              <li class="mobile-menu-socials__item">
+                <a class="mobile-menu-socials__link" lang="en" href=""
+                  >Twitter</a
+                >
+              </li>
+              <li class="mobile-menu-socials__item">
+                <a class="mobile-menu-socials__link" lang="en" href=""
+                  >Facebook</a
+                >
+              </li>
+              <li class="mobile-menu-socials__item">
+                <a class="mobile-menu-socials__link" lang="en" href=""
+                  >LinkedIn</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
     <main>
       <!--Filters-->
       <section class="section-filters">
@@ -145,16 +158,24 @@
               <button class="list-buttons__portfolio" type="button">Все</button>
             </li>
             <li class="list-buttons__item">
-              <button class="list-buttons__portfolio" type="button">Веб-сайти</button>
+              <button class="list-buttons__portfolio" type="button">
+                Веб-сайти
+              </button>
             </li>
             <li class="list-buttons__item">
-              <button class="list-buttons__portfolio" type="button">Додатки</button>
+              <button class="list-buttons__portfolio" type="button">
+                Додатки
+              </button>
             </li>
             <li class="list-buttons__item">
-              <button class="list-buttons__portfolio" type="button">Дизайн</button>
+              <button class="list-buttons__portfolio" type="button">
+                Дизайн
+              </button>
             </li>
             <li class="list-buttons__item">
-              <button class="list-buttons__portfolio" type="button">Маркетинг</button>
+              <button class="list-buttons__portfolio" type="button">
+                Маркетинг
+              </button>
             </li>
           </ul>
           <!--Projects-->
@@ -165,17 +186,37 @@
                   <!--desktop screen-->
                   <source
                     media="(min-width: 1200px)"
-                    srcset="./images/portfolio-addaptive/port_1desk@1x_result.jpg 1x, ./images/portfolio-addaptive/port_1desk@2x_result.jpg 2x"
-                    type="image/jpg">
+                    srcset="
+                      ./images/portfolio-addaptive/port_1desk@1x_result.jpg 1x,
+                      ./images/portfolio-addaptive/port_1desk@2x_result.jpg 2x
+                    "
+                    type="image/jpg"
+                  />
                   <!--tablet screen-->
-                  <source media="(min-width: 768px)" srcset="./images/portfolio-addaptive/port_1tabl@1x_result.jpg 1x, ./images/portfolio-addaptive/port_1tabl@2x_result.jpg 2x" type="image/jpg">
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/portfolio-addaptive/port_1tabl@1x_result.jpg 1x,
+                      ./images/portfolio-addaptive/port_1tabl@2x_result.jpg 2x
+                    "
+                    type="image/jpg"
+                  />
                   <!--mobile screen-->
-                  <source media="(max-width: 767px)" srcset="./images/portfolio-addaptive/port_1mob@1x_result.jpg 1x, ./images/portfolio-addaptive/port_1mob@2x_result.jpg 2x" type="image/jpg">
-                  <img class="cards-overlay__image"
-                  src="./images/portfolio-addaptive/port_1mob@1x_result.jpg"
-                  alt="Показан веб-сайт на ноутбуке"
-                  width="450"
-                  height="294">
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/portfolio-addaptive/port_1mob@1x_result.jpg 1x,
+                      ./images/portfolio-addaptive/port_1mob@2x_result.jpg 2x
+                    "
+                    type="image/jpg"
+                  />
+                  <img
+                    class="cards-overlay__image"
+                    src="./images/portfolio-addaptive/port_1mob@1x_result.jpg"
+                    alt="Показан веб-сайт на ноутбуке"
+                    width="450"
+                    height="294"
+                  />
                 </picture>
                 <p class="cards-overlay__text">
                   Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -190,24 +231,42 @@
             </li>
             <li class="project-list__item">
               <div class="cards-overlay">
-              <picture>
-                <!--desktop screen-->
-                <source
-                  media="(min-width: 1200px)"
-                  srcset="./images/portfolio-addaptive/port_2desk@1x_result.jpg 1x, ./images/portfolio-addaptive/port_2desk@2x_result.jpg 2x"
-                  type="image/jpg"
-                />
-                <!--tablet screen-->
-                <source media="(min-width: 768px)" srcset="./images/portfolio-addaptive/port_2tabl@1x_result.jpg 1x, ./images/portfolio-addaptive/port_2tabl@2x_result.jpg 2x" type="image/jpg" />
-                <!--mobile screen-->
-                <source media="(max-width: 767px)" srcset="./images/portfolio-addaptive/port_2mob@1x_result.jpg 1x, ./images/portfolio-addaptive/port_2mob@2x_result.jpg 2x" type="image/jpg" />
-                  <img class="cards-overlay__image"
+                <picture>
+                  <!--desktop screen-->
+                  <source
+                    media="(min-width: 1200px)"
+                    srcset="
+                      ./images/portfolio-addaptive/port_2desk@1x_result.jpg 1x,
+                      ./images/portfolio-addaptive/port_2desk@2x_result.jpg 2x
+                    "
+                    type="image/jpg"
+                  />
+                  <!--tablet screen-->
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/portfolio-addaptive/port_2tabl@1x_result.jpg 1x,
+                      ./images/portfolio-addaptive/port_2tabl@2x_result.jpg 2x
+                    "
+                    type="image/jpg"
+                  />
+                  <!--mobile screen-->
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/portfolio-addaptive/port_2mob@1x_result.jpg 1x,
+                      ./images/portfolio-addaptive/port_2mob@2x_result.jpg 2x
+                    "
+                    type="image/jpg"
+                  />
+                  <img
+                    class="cards-overlay__image"
                     src="./images/portfolio-addaptive/port_2mob@1x_result.jpg"
                     alt="Постер"
                     width="450"
                     height="294"
                   />
-              </picture>
+                </picture>
                 <p class="cards-overlay__text">
                   Ресурс пропонує комплексні пропозиції з різним рівнем
                   функціоналу та сервісів. Все це дозволить відвідувачу отримати
@@ -215,7 +274,9 @@
                 </p>
               </div>
               <div class="project-cards">
-                <h2 class="project-cards__title">Постер New Orlean vs Golden Star</h2>
+                <h2 class="project-cards__title">
+                  Постер New Orlean vs Golden Star
+                </h2>
                 <p class="project-cards__text">Дизайн</p>
               </div>
             </li>
@@ -225,19 +286,37 @@
                   <!--desktop screen-->
                   <source
                     media="(min-width: 1200px)"
-                    srcset="./images/portfolio-addaptive/port_3desk@1x_result.jpg 1x, ./images/portfolio-addaptive/port_3desk@2x_result.jpg 2x"
+                    srcset="
+                      ./images/portfolio-addaptive/port_3desk@1x_result.jpg 1x,
+                      ./images/portfolio-addaptive/port_3desk@2x_result.jpg 2x
+                    "
                     type="image/jpg"
                   />
                   <!--tablet screen-->
-                  <source media="(min-width: 768px)" srcset="./images/portfolio-addaptive/port_3tabl@1x_result.jpg 1x, ./images/portfolio-addaptive/port_3tabl@2x_result.jpg 2x" type="image/jpg" />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/portfolio-addaptive/port_3tabl@1x_result.jpg 1x,
+                      ./images/portfolio-addaptive/port_3tabl@2x_result.jpg 2x
+                    "
+                    type="image/jpg"
+                  />
                   <!--mobile screen-->
-                  <source media="(max-width: 767px)" srcset="./images/portfolio-addaptive/port_3mob@1x_result.jpg 1x, ./images/portfolio-addaptive/port_3mob@2x_result.jpg 2x" type="image/jpg" />
-                    <img class="cards-overlay__image"
-                  src="./images/portfolio-addaptive/port_3mob@1x_result.jpg"
-                  alt="Логотип додатку Ресторану Seafood"
-                  width="450"
-                  height="294"
-                />
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/portfolio-addaptive/port_3mob@1x_result.jpg 1x,
+                      ./images/portfolio-addaptive/port_3mob@2x_result.jpg 2x
+                    "
+                    type="image/jpg"
+                  />
+                  <img
+                    class="cards-overlay__image"
+                    src="./images/portfolio-addaptive/port_3mob@1x_result.jpg"
+                    alt="Логотип додатку Ресторану Seafood"
+                    width="450"
+                    height="294"
+                  />
                 </picture>
                 <p class="cards-overlay__text">
                   Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -256,19 +335,37 @@
                   <!--desktop screen-->
                   <source
                     media="(min-width: 1200px)"
-                    srcset="./images/portfolio-addaptive/port_4desk@1x_result.jpg 1x, ./images/portfolio-addaptive/port_4desk@2x_result.jpg 2x"
+                    srcset="
+                      ./images/portfolio-addaptive/port_4desk@1x_result.jpg 1x,
+                      ./images/portfolio-addaptive/port_4desk@2x_result.jpg 2x
+                    "
                     type="image/jpg"
                   />
                   <!--tablet screen-->
-                  <source media="(min-width: 768px)" srcset="./images/portfolio-addaptive/port_4tabl@1x_result.jpg 1x, ./images/portfolio-addaptive/port_4tabl@2x_result.jpg 2x" type="image/jpg" />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/portfolio-addaptive/port_4tabl@1x_result.jpg 1x,
+                      ./images/portfolio-addaptive/port_4tabl@2x_result.jpg 2x
+                    "
+                    type="image/jpg"
+                  />
                   <!--mobile screen-->
-                  <source media="(max-width: 767px)" srcset="./images/portfolio-addaptive/port_4mob@1x_result.jpg 1x, ./images/portfolio-addaptive/port_4mob@2x_result.jpg 2x" type="image/jpg" />
-                    <img class="cards-overlay__image"
-                  src="./images/portfolio-addaptive/port_4mob@1x_result.jpg"
-                  alt="Бездротові, чoрні навушники на білом фоні"
-                  width="450"
-                  height="294"
-                />
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/portfolio-addaptive/port_4mob@1x_result.jpg 1x,
+                      ./images/portfolio-addaptive/port_4mob@2x_result.jpg 2x
+                    "
+                    type="image/jpg"
+                  />
+                  <img
+                    class="cards-overlay__image"
+                    src="./images/portfolio-addaptive/port_4mob@1x_result.jpg"
+                    alt="Бездротові, чoрні навушники на білом фоні"
+                    width="450"
+                    height="294"
+                  />
                 </picture>
                 <p class="cards-overlay__text">
                   Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -287,19 +384,37 @@
                   <!--desktop screen-->
                   <source
                     media="(min-width: 1200px)"
-                    srcset="./images/portfolio-addaptive/port_5desk@1x_result.jpg 1x, ./images/portfolio-addaptive/port_5desk@2x_result.jpg 2x"
+                    srcset="
+                      ./images/portfolio-addaptive/port_5desk@1x_result.jpg 1x,
+                      ./images/portfolio-addaptive/port_5desk@2x_result.jpg 2x
+                    "
                     type="image/jpg"
                   />
                   <!--tablet screen-->
-                  <source media="(min-width: 768px)" srcset="./images/portfolio-addaptive/port_5tabl@1x_result.jpg 1x, ./images/portfolio-addaptive/port_5tabl@2x_result.jpg 2x" type="image/jpg" />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/portfolio-addaptive/port_5tabl@1x_result.jpg 1x,
+                      ./images/portfolio-addaptive/port_5tabl@2x_result.jpg 2x
+                    "
+                    type="image/jpg"
+                  />
                   <!--mobile screen-->
-                  <source media="(max-width: 767px)" srcset="./images/portfolio-addaptive/port_5mob@1x_result.jpg 1x, ./images/portfolio-addaptive/port_5mob@2x_result.jpg 2x" type="image/jpg" />
-                    <img class="cards-overlay__image"
-                  src="./images/portfolio-addaptive/port_5mob@1x_result.jpg"
-                  alt="Коробки на білому фоні"
-                  width="450"
-                  height="294"
-                />
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/portfolio-addaptive/port_5mob@1x_result.jpg 1x,
+                      ./images/portfolio-addaptive/port_5mob@2x_result.jpg 2x
+                    "
+                    type="image/jpg"
+                  />
+                  <img
+                    class="cards-overlay__image"
+                    src="./images/portfolio-addaptive/port_5mob@1x_result.jpg"
+                    alt="Коробки на білому фоні"
+                    width="450"
+                    height="294"
+                  />
                 </picture>
                 <p class="cards-overlay__text">
                   Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -318,14 +433,32 @@
                   <!--desktop screen-->
                   <source
                     media="(min-width: 1200px)"
-                    srcset="./images/portfolio-addaptive/port_6desk@1x_result.jpg 1x, ./images/portfolio-addaptive/port_6desk@2x_result.jpg 2x"
+                    srcset="
+                      ./images/portfolio-addaptive/port_6desk@1x_result.jpg 1x,
+                      ./images/portfolio-addaptive/port_6desk@2x_result.jpg 2x
+                    "
                     type="image/jpg"
                   />
                   <!--tablet screen-->
-                  <source media="(min-width: 768px)" srcset="./images/portfolio-addaptive/port_6tabl@1x_result.jpg 1x, ./images/portfolio-addaptive/port_6tabl@2x_result.jpg 2x" type="image/jpg" />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/portfolio-addaptive/port_6tabl@1x_result.jpg 1x,
+                      ./images/portfolio-addaptive/port_6tabl@2x_result.jpg 2x
+                    "
+                    type="image/jpg"
+                  />
                   <!--mobile screen-->
-                  <source media="(max-width: 767px)" srcset="./images/portfolio-addaptive/port_6mob@1x_result.jpg 1x, ./images/portfolio-addaptive/port_6mob@2x_result.jpg 2x" type="image/jpg" />
-                    <img class="cards-overlay__image"
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/portfolio-addaptive/port_6mob@1x_result.jpg 1x,
+                      ./images/portfolio-addaptive/port_6mob@2x_result.jpg 2x
+                    "
+                    type="image/jpg"
+                  />
+                  <img
+                    class="cards-overlay__image"
                     src="./images/portfolio-addaptive/port_6mob@1x_result.jpg"
                     alt="На моніторі комп'ютера показано сайт"
                     width="450"
@@ -349,19 +482,37 @@
                   <!--desktop screen-->
                   <source
                     media="(min-width: 1200px)"
-                    srcset="./images/portfolio-addaptive/port_7desk@1x_result.jpg 1x, ./images/portfolio-addaptive/port_7desk@2x_result.jpg 2x"
+                    srcset="
+                      ./images/portfolio-addaptive/port_7desk@1x_result.jpg 1x,
+                      ./images/portfolio-addaptive/port_7desk@2x_result.jpg 2x
+                    "
                     type="image/jpg"
                   />
                   <!--tablet screen-->
-                  <source media="(min-width: 768px)" srcset="./images/portfolio-addaptive/port_7tabl@1x_result.jpg 1x, ./images/portfolio-addaptive/port_7tabl@2x_result.jpg 2x" type="image/jpg" />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/portfolio-addaptive/port_7tabl@1x_result.jpg 1x,
+                      ./images/portfolio-addaptive/port_7tabl@2x_result.jpg 2x
+                    "
+                    type="image/jpg"
+                  />
                   <!--mobile screen-->
-                  <source media="(max-width: 767px)" srcset="./images/portfolio-addaptive/port_7mob@1x_result.jpg 1x, ./images/portfolio-addaptive/port_7mob@2x_result.jpg 2x" type="image/jpg" />
-                    <img class="cards-overlay__image"
-                  src="./images/portfolio-addaptive/port_7mob@1x_result.jpg"
-                  alt="Журнал зі статтею видавництва"
-                  width="450"
-                  height="294"
-                />
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/portfolio-addaptive/port_7mob@1x_result.jpg 1x,
+                      ./images/portfolio-addaptive/port_7mob@2x_result.jpg 2x
+                    "
+                    type="image/jpg"
+                  />
+                  <img
+                    class="cards-overlay__image"
+                    src="./images/portfolio-addaptive/port_7mob@1x_result.jpg"
+                    alt="Журнал зі статтею видавництва"
+                    width="450"
+                    height="294"
+                  />
                 </picture>
                 <p class="cards-overlay__text">
                   Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -380,19 +531,37 @@
                   <!--desktop screen-->
                   <source
                     media="(min-width: 1200px)"
-                    srcset="./images/portfolio-addaptive/port_8desk@1x_result.jpg 1x, ./images/portfolio-addaptive/port_8desk@2x_result.jpg 2x"
+                    srcset="
+                      ./images/portfolio-addaptive/port_8desk@1x_result.jpg 1x,
+                      ./images/portfolio-addaptive/port_8desk@2x_result.jpg 2x
+                    "
                     type="image/jpg"
                   />
                   <!--tablet screen-->
-                  <source media="(min-width: 768px)" srcset="./images/portfolio-addaptive/port_8tabl@1x_result.jpg 1x, ./images/portfolio-addaptive/port_8tabl@2x_result.jpg 2x" type="image/jpg" />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/portfolio-addaptive/port_8tabl@1x_result.jpg 1x,
+                      ./images/portfolio-addaptive/port_8tabl@2x_result.jpg 2x
+                    "
+                    type="image/jpg"
+                  />
                   <!--mobile screen-->
-                  <source media="(max-width: 767px)" srcset="./images/portfolio-addaptive/port_8mob@1x_result.jpg 1x, ./images/portfolio-addaptive/port_8mob@2x_result.jpg 2x" type="image/jpg" />
-                    <img class="cards-overlay__image"
-                  src="./images/portfolio-addaptive/port_8mob@1x_result.jpg"
-                  alt="Лейбл з логотипом компанії"
-                  width="450"
-                  height="294"
-                />
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/portfolio-addaptive/port_8mob@1x_result.jpg 1x,
+                      ./images/portfolio-addaptive/port_8mob@2x_result.jpg 2x
+                    "
+                    type="image/jpg"
+                  />
+                  <img
+                    class="cards-overlay__image"
+                    src="./images/portfolio-addaptive/port_8mob@1x_result.jpg"
+                    alt="Лейбл з логотипом компанії"
+                    width="450"
+                    height="294"
+                  />
                 </picture>
                 <p class="cards-overlay__text">
                   Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -411,19 +580,37 @@
                   <!--desktop screen-->
                   <source
                     media="(min-width: 1200px)"
-                    srcset="./images/portfolio-addaptive/port_9desk@1x_result.jpg 1x, ./images/portfolio-addaptive/port_9desk@2x_result.jpg 2x"
+                    srcset="
+                      ./images/portfolio-addaptive/port_9desk@1x_result.jpg 1x,
+                      ./images/portfolio-addaptive/port_9desk@2x_result.jpg 2x
+                    "
                     type="image/jpg"
                   />
                   <!--tablet screen-->
-                  <source media="(min-width: 768px)" srcset="./images/portfolio-addaptive/port_9tabl@1x_result.jpg 1x, ./images/portfolio-addaptive/port_9tabl@2x_result.jpg 2x" type="image/jpg" />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/portfolio-addaptive/port_9tabl@1x_result.jpg 1x,
+                      ./images/portfolio-addaptive/port_9tabl@2x_result.jpg 2x
+                    "
+                    type="image/jpg"
+                  />
                   <!--mobile screen-->
-                  <source media="(max-width: 767px)" srcset="./images/portfolio-addaptive/port_9mob@1x_result.jpg 1x, ./images/portfolio-addaptive/port_9mob@2x_result.jpg 2x" type="image/jpg" />
-                    <img class="cards-overlay__image"
-                  src="./images/portfolio-addaptive/port_9mob@1x_result.jpg"
-                  alt="Відкритий додаток на ноутбуці"
-                  width="450"
-                  height="294"
-                />
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/portfolio-addaptive/port_9mob@1x_result.jpg 1x,
+                      ./images/portfolio-addaptive/port_9mob@2x_result.jpg 2x
+                    "
+                    type="image/jpg"
+                  />
+                  <img
+                    class="cards-overlay__image"
+                    src="./images/portfolio-addaptive/port_9mob@1x_result.jpg"
+                    alt="Відкритий додаток на ноутбуці"
+                    width="450"
+                    height="294"
+                  />
                 </picture>
                 <p class="cards-overlay__text">
                   Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -467,7 +654,10 @@
                 >
               </li>
               <li class="footer-list__item">
-                <a class="footer-list__link" href="tel:+380961111111" title="Contact us"
+                <a
+                  class="footer-list__link"
+                  href="tel:+380961111111"
+                  title="Contact us"
                   >+38 096 111 11 11</a
                 >
               </li>
@@ -488,7 +678,9 @@
               <li class="social-group__links">
                 <a class="social-group__icon" aria-label="Twitter" href="">
                   <svg class="social-group__pic">
-                    <use href="./images/icons/sprite.svg#icon-flogotwitter-2"></use>
+                    <use
+                      href="./images/icons/sprite.svg#icon-flogotwitter-2"
+                    ></use>
                   </svg>
                 </a>
               </li>
@@ -502,7 +694,9 @@
               <li class="social-group__links">
                 <a class="social-group__icon" aria-label="LinkedIn" href="">
                   <svg class="social-group__pic">
-                    <use href="./images/icons/sprite.svg#icon-flogolinkedin-2"></use>
+                    <use
+                      href="./images/icons/sprite.svg#icon-flogolinkedin-2"
+                    ></use>
                   </svg>
                 </a>
               </li>
@@ -511,24 +705,26 @@
         </div>
         <div class="subscribe">
           <p class="subscribe__title">Підпишіться на розсилку</p>
-          <label class="subscribe__label" for="e-mail"></label>
-          <input
-            class="subscribe__text"
-            id="e-mail"
-            type="text"
-            name="e-mail"
-            placeholder="E-mail"
-          />
-          <button class="subs-btn" type="submit">
-            Підписатися
-            <svg class="subs-btn__icon">
-              <use href="./images/icons/sprite.svg#icon-airplane"></use>
-            </svg>
-          </button>
+          <form class="subscribe__form">
+            <label class="subscribe__label" for="e-mail"></label>
+            <input
+              class="subscribe__text"
+              id="e-mail"
+              type="text"
+              name="e-mail"
+              placeholder="E-mail"
+            />
+            <button class="subs-btn" type="submit">
+              Підписатися
+              <svg class="subs-btn__icon">
+                <use href="./images/icons/sprite.svg#icon-airplane"></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
-     <!--Підключення Menu-->
-     <script src="./js/menu.js"></script>
+    <!--Підключення Menu-->
+    <script src="./js/menu.js"></script>
   </body>
 </html>
