@@ -69,13 +69,13 @@
       to right,
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
-      ), url(../../images/hero-addaptive/tablet2x.jpg);
+      ), url(../images/hero-addaptive/tablet2x.jpg);
     }
   } 
 
   @media screen and (min-width: 1200px) {
    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-   url(../../images/hero-addaptive/desktop1.jpg);
+   url(../images/hero-addaptive/desktop1.jpg);
 
   @media (min-device-pixel-ratio: 2),
     (-webkit-min-device-pixel-ratio: 2),
@@ -85,7 +85,7 @@
       to right,
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
-      ), url(../../images/hero-addaptive/desktop2x.jpg);
+      ), url(../images/hero-addaptive/desktop2x.jpg);
     }
   }
 
