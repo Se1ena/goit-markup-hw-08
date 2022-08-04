@@ -65,11 +65,11 @@ body {
   font-family: Roboto, sans-serif;
 }
 
-/*@media screen and (max-width:767px) {
-  .page{
-    overflow:hidden;
+@media screen and (max-width: 767px) {
+  .no-scroll {
+    overflow: hidden;
   }
-}*/
+}
 h1,
 h2,
 h3,
